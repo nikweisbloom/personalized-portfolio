@@ -20,12 +20,7 @@
     line-height: 1.5;
   }
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     margin: 0;
   }
   
@@ -43,7 +38,10 @@
     background-color: var(--tertiary);
     box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
   }
-  
+  header img {
+    max-height: 150px;
+  }
+
   header h1 {
     color: var(--tertiary);
     background-color: var(--secondary);
@@ -221,8 +219,13 @@
   
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
-  .run-buddy {
-    
+  .prework-study-guide, .react-calc, .pastel-puzzles {
+    margin-top: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #7e0084;
+    color: #ffffff;
   }
   
   .led-wall {
@@ -241,6 +244,9 @@
     
   }
   
+  .react-calc img, .prework-study-guide img, .pastel-puzzles img {
+    max-height: 200px;
+  }
   /* media queries */
   
   /* media queries for a max-width of 980px */
@@ -278,3 +284,8 @@
   }
   
   /* TODO: add media query for a max-width of 768px */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #3f50d5;
+    }
+  }
