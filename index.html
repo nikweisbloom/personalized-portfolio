@@ -2,43 +2,54 @@
 <html lang="en">
 
 <head>
-    <title>Web Developer Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Nikolas Weisbloom Porfolio</title>
 </head>
 
 <body>
-    <header>
-        <img src="./assets/images/Tottenham.png" alt="Tottenham logo">
-        <h1>Nik's Portfolio</h1>
+    <header class="hero-banner">
+        <div>
+        <img src="./assets/images/paulie.png" alt="profile picture" class="float-left"> 
+        <h2 class="float-left">Nik's Portfolio</h2>
+        </div>
         <nav>
              <ul>
-                <li><a href="#prework-study-guide">Prework Study Guide</a>
+                <li>
+                    <a href="#prework-study-guide">Study</a>
                 </li>
-                <li><a href="#react-calc">Calculator</a>
+                <li>
+                    <a href="#react-calc">Calculator</a>
                 </li>
-                <li><a href="#pastel-puzzles">Puzzles</a>
+                <li>
+                    <a href="#pastel-puzzles">Puzzles</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="prework-study-guide">
+    <main class="page-wrapper">
+        <section class="page-section">
+            <div class="prework-study-guide">
 <img src="./assets/images/studyguide.png" role="img" alt="Study Guide">
+            </div>
 <h2>Prework Study Guide</h2>
         </section>
-        <section class="pastel-puzzles">
+        <section class="page-section">
+            <div class="pastel-puzzles">
 <img src="/assets/images/puzzle.png" role="img" alt="Pastel Puzzle Pieces">
+            </div>
 <h2>Puzzles</h2>
 <p>
 
 </p>
         </section>
-        <section class="react-calc">
+        <section class="page-section">
+            <div class="react-calc">
 <img src="./assets/images/calculator.png" role="img" alt="Basic Calculator">
+            </div>
 <h2>Calculator</h2>
-        <p>Basic Calculator Application</p>
         </section>
         <section>
 
@@ -47,7 +58,9 @@
 
         </section>
     </main>
-</body>
-<script src="./assets/src/main.js"></script>
+    <a id="Contact-Information"></a>
+    <footer class="contact">
 
+    </footer>
+</body>
 </html>
